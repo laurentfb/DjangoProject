@@ -1,5 +1,5 @@
 from django.db import models
-
+# TODO : document code here
 class Customer(models.Model):
     customer_code = models.CharField(max_length=15, primary_key=True)
     customer_name = models.CharField(max_length=250)

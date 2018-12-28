@@ -28,4 +28,4 @@ class Tracking(models.Model):
 
     @property
     def __str__(self):
-        return str(self.project)+ ' - '+str(self.work_load)+' hours on '+str(self.work_date)
+        return str(self.project)+ ' - '+str(self.work_load)+' hours on '+str(self.work_date)+'.'
